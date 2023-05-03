@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Globo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&display=swap"
+        rel="stylesheet">
+    <!-- css sweet alert -->
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+    <header class="contenedor1">
+        <div class="logo">
+            <img src="img/logo.png" class="logo-img">
+        </div>
+        <div class="usuario">
+            <input type="text" id="insert_user_input" placeholder="Ingrese su usuario...">
+        </div>
+    </header>
+
+    <div class="contenedor2">
+
+        <div class="contenedor-usuario">
+            <div class="img-container">
+                <img src="img/imagen.pric.jpg" width="200px" alt="">
+            </div>
+
+            <ul>
+                <li>
+                    <h2 class="title-janedoe">Jane Doe</h2>
+                </li>
+                <li><b>Email: </b> jane_doe@email.com</li>
+                <br>
+                <li><b>Fecha de nacimiento: </b> 01/05/1996</li>
+                <br>
+                <li><b>Telefono: </b> 918-936-9585</li>
+                <br>
+                <li><b>Ciudad: </b> Tokyo, Japon</li>
+                <br>
+                <p class="p1">Trabajando en Lawn N</p>
+                <br>
+            </ul>
+        </div>
+        <!-- <div> -->
+        <button class="seguir" id="botonSg">Seguir</button>
+
+
+        <!-- </div> -->
+    </div>
+
+    <div class="publicacion">
+        <div class="contenedor3">
+            <div>
+                <p>Publicado hace 1 semana</p>
+                <img class="img-comentario" src="img/undefined - Imgur (1).jpg">
+            </div>
+
+            <div class="mg-class">
+                <button class="mg" type="submit" id="mg_btn">Me gusta</button>
+                <p class="likes"  for="megusta">
+                    <span id="megustas__text"></span>
+                    likes
+                </p>
+            </div>
+
+            <div>
+                <h4 class="comentarioh4">Comentarios</h4>
+                <div class="coments" id="block_coments">
+                    <p><b>Juan Perez:</b> ¡wow, esa foto es impresionante!</p>
+                    <p><b>Kathleen J Rennie:</b> ¡Esta foto de Tokio es simplemente espectacular! Me trae tantos
+                        recuerdos.
+                    </p>
+                </div>
+            </div>
+
+            <div class="caja-comentario">
+                <div class="comen">
+                    <input class="usuario" id="coment_input" type="text" placeholder="Deja tu comentario...">
+                    <button class="seguir" id="coment_btn">Comentar</button>
+                </div>
+            </div>
+        </div>
+        <div class="about-container">
+            <h3>Sobre mí</h3>
+            <p> ¡Hola a todos! Soy Jane, y actualmente vivo en la vibrante y emocionante ciudad de Tokio, Japón. Me
+                encanta capturar la esencia de la vida urbana a través de mi lente, explorando el contraste entre la
+                arquitectura moderna y las tradiciones centenarias que conviven en esta metrópolis única. Desde
+                rascacielos deslumbrantes y calles bulliciosas hasta templos serenos y jardines tranquilos,
+                encuentro inspiración en cada rincón de esa increíble ciudad.</p>
+        </div>
+    </div>
+    <!-- mis scripts -->
+    <script src="main.js"></script>
+    <!-- sweetAlert  -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+</body>
+</html>
